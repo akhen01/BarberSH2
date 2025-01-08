@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "CustomFont";
+    src: url('../assets/fonts/neon-club-music/NEON CLUB MUSIC/NEON CLUB MUSIC_bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
