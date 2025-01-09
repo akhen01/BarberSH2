@@ -1,13 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Hero from '../components/Hero'
 import TheTeam from '../components/TheTeam'
-import OurCrafts from '../components/ourCrafts'
+import OurCrafts from "../components/OurCrafts"
 import background from "../assets/backgrounddarck.jpg"
 import Footer from '../components/Heafoo/Footer'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import _ScrollTrigger from 'gsap/ScrollTrigger'
 import gsap from 'gsap'
-import { useGSAP } from '@gsap/react'
 
 gsap.registerPlugin(_ScrollTrigger);
 

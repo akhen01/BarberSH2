@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react'
-import { useState } from 'react'
-import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 
 function OurCrafts({state}) {
@@ -11,7 +9,7 @@ function OurCrafts({state}) {
                x:"100%" 
             }, 
             { 
-                x:"0%", duration: 3, stagger: 0.1 
+                x:"0%", duration: 3
             });
             gsap.fromTo(".opac", { 
                 opacity: 0 
@@ -20,10 +18,10 @@ function OurCrafts({state}) {
                 opacity: 1, duration: 3, delay: 3 
             });
             gsap.fromTo(".goleft", { 
-               x:"-150%" 
+               x:"-100%" 
             }, 
             { 
-                x:"0%" ,duration: 3 , stagger: 0.2
+                x:"0%" ,duration: 3 , stagger: 0
             });
             gsap.fromTo(".godown", { 
                y:"-100%",opacity:0,
